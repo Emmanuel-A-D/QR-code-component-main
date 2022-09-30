@@ -97,5 +97,23 @@ button {
 @media (max-width: 375px) {
  body {
   width: 375px;
+  height: 667px;
+ }
+
+ main {
+  width: 83%;
+  height: 75%;
+ }
+
+ main h2 {
+  padding: 0.5em;
+  font-size: 1.5em;
+ }
+
+ main p {
+  font-size: 1.1em;
+ }
+ button {
+  margin: 1.2em 0;
  }
 }

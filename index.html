@@ -14,15 +14,13 @@
     <img src="images/image-qr-code.png" alt="img-QR" class="img">
     <h2>Improve your front-end skills by building projects</h2>
     <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-    <button id="btn1" class="button" type="submit"></button>
+    <button id="btn" class="button" type="submit"></button>
   </main>
   <script type="text/javascript">
-    const dark = document.getElementById ('btn1');
-
-dark.onclick = function () {
-    document.body.classList.toggle("dark-theme");
-   
-};
+    const dark = document.getElementById ('btn');
+    dark.onclick = function () {
+        document.body.classList.toggle("dark-theme");
+    };
   </script>
 </body>
 </html>
